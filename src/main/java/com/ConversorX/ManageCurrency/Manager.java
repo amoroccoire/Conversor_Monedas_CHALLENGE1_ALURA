@@ -47,7 +47,7 @@ public class Manager {
         }
     }
 
-    public void showOption() {
+    public void showOption() { //metodo para iterar sobre el Map, calcula la cantidad de opciones
         System.out.println("*************************************************");
         System.out.println("Sea bienvenido al conversor de monedas =]");
         int opciones = getNumOfOptions() - 1;
