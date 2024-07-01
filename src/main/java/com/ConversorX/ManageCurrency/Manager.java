@@ -13,7 +13,7 @@ public class Manager {
     private static Manager instance;
     private Client clienteAPI;
 
-    private Manager() {
+    private Manager() { //metodo privado para garantizar que solo se instancie una vez
         if (monedasActuales == null) {
             monedasActuales = new HashMap<>();
             clienteAPI = new Client();
@@ -21,8 +21,8 @@ public class Manager {
         }
     }
 
-    public static Manager getInstanceManager() {
-        if (instance == null) {
+    public static Manager getInstanceManager() { //aplicacion del patron de diseño singleton
+        if (instance == null) { //crea una nueva instancia de esta clase si ve que no existe
             instance = new Manager();
         }
         return instance;
