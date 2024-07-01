@@ -1,4 +1,5 @@
-# Conversor Monedas CHALLENGE 1 ALURA  
+# CHALLENGE 1  
+## Conversor de Monedas
 ### OBJETIVO  
   - Transformar el monto de una determinada moneda (X) a USD
   - Transformar de USD -> (X)
@@ -8,6 +9,7 @@
    - Para obtener las conversiones se uso la pagina: https://www.exchangerate-api.com/
    - Se uso Maven para usar Gson
    - Se uso java 17  
+   - IntelliJ Community Edition
    
 2. ARCHIVO "ActualCurrencies.txt"  
    Contiene la siguiente lista:
