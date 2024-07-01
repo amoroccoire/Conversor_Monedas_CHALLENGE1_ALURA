@@ -28,7 +28,7 @@ public class Manager {
         return instance;
     }
 
-    private void loadCurrencies() {
+    private void loadCurrencies() { //este etodo carga en un Map las monedas actuales, los lee desde el archivo .txt
         File file = new File("ActualCurrencies.txt");
         try {
             Scanner fileReader = new Scanner(file);
