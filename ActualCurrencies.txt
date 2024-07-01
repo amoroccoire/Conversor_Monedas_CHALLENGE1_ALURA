@@ -1,0 +1,4 @@
+ARS,Peso Argentino
+BRL,Real Brazileño
+COP,Peso Colombiano
+PEN,Sol Peruano
