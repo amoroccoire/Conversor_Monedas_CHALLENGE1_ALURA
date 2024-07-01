@@ -67,6 +67,8 @@ public class Manager {
         return monedasActuales.size()*2+1;
     }
 
+    //id es la clave asignada a cada par en el Map, va desde 1 a N
+    //direction se refiere a el sentido de la conversion, false para MONEDA -> USD y true para USD -> MONEDA
     public String makeQuery(int id, boolean direction, double monto) {
         Pair par = monedasActuales.get(id);
 
